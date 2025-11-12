@@ -6,6 +6,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import AdminPanel from './components/AdminPanel';
+import CustomCursor from './components/CustomCursor';
+import FloatingActionButton from './components/FloatingActionButton';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -49,28 +51,30 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
+      <CustomCursor />
       <Header activeSection={activeSection} setActiveSection={setActiveSection} />
-      
+
       <main>
         <section id="home" className="min-h-screen">
           <Hero />
         </section>
-        
+
         <section id="portfolio" className="min-h-screen bg-gradient-to-b from-black to-gray-900">
           <Portfolio />
         </section>
-        
+
         <section id="about" className="min-h-screen bg-gradient-to-b from-gray-900 to-black">
           <About />
         </section>
-        
+
         <section id="contact" className="min-h-screen bg-gradient-to-b from-black to-gray-900">
           <Contact />
         </section>
       </main>
-      
+
       <Footer />
       <AdminPanel />
+      <FloatingActionButton />
     </div>
   );
 }

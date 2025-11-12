@@ -162,17 +162,17 @@ const About = () => {
 
           {/* Contact Info Cards */}
           <div className="grid grid-cols-2 gap-4">
-            <a 
+            <a
               href="mailto:vampixwork@gmail.com"
-              className="interactive-card bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-xl hover:bg-white/10 transition-all duration-300 group"
+              className="interactive-card bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-xl hover:bg-white/10 transition-all duration-300 group glow-effect"
             >
               <Mail className="w-6 h-6 text-orange-400 mb-2 group-hover:scale-110 transition-transform duration-300" />
               <div className="text-sm text-gray-400">Email</div>
               <div className="text-white font-medium">Let's talk</div>
             </a>
-            <a 
+            <a
               href="tel:+359890342280"
-              className="interactive-card bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-xl hover:bg-white/10 transition-all duration-300 group"
+              className="interactive-card bg-white/5 backdrop-blur-sm border border-white/10 p-4 rounded-xl hover:bg-white/10 transition-all duration-300 group glow-effect"
             >
               <Phone className="w-6 h-6 text-orange-400 mb-2 group-hover:scale-110 transition-transform duration-300" />
               <div className="text-sm text-gray-400">Phone</div>

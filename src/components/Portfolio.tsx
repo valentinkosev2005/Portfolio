@@ -195,11 +195,11 @@ const Portfolio = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" ref={containerRef}>
           {visibleProjects.map((project, index) => (
-            <div 
+            <div
               key={project.id}
-              className="portfolio-item interactive-card bg-white/5 backdrop-blur-sm border border-white/10 cursor-pointer group"
+              className="portfolio-item interactive-card tilt-card bg-white/5 backdrop-blur-sm border border-white/10 cursor-pointer group glow-effect"
               onClick={() => openProjectModal(project)}
               style={{
                 animationDelay: `${index * 0.1}s`
