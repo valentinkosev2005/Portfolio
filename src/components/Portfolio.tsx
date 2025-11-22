@@ -37,7 +37,6 @@ const Portfolio = () => {
     { id: 'illustration', label: 'Art', icon: '✨' }
   ];
 
-  // Creative project data with unique presentationss
   const projects: Project[] = [
   {
     id: '1',
@@ -49,10 +48,10 @@ const Portfolio = () => {
     services: ['Brand Strategy', 'Logo Design', 'Packaging', 'Marketing Materials'],
     is_featured: true,
     images: [
-      { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/gn%20pechen/Logo%20V2-01.png', caption: 'Logo Design' },
-      { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/gn%20pechen/WaffleWeb-01.jpg', caption: 'Social Media Post' },
-      { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/gn%20pechen/FlyerOptimized.jpg', caption: 'Flyer Design' },
-      { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/gn%20pechen/MenuOptimized.jpg', caption: 'Menu Design' }
+      { url: 'https://images.pexels.com/photos/3568518/pexels-photo-3568518.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Logo Design' },
+      { url: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Social Media Post' },
+      { url: 'https://images.pexels.com/photos/3944441/pexels-photo-3944441.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Flyer Design' },
+      { url: 'https://images.pexels.com/photos/3962570/pexels-photo-3962570.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Menu Design' }
     ]
   },
   {
@@ -63,11 +62,11 @@ const Portfolio = () => {
     client: 'Various Clients',
     year: '2024',
     services: ['Print Design', 'Typography', 'Brand Application'],
-    images: [ 
-      { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Business%20Card/Asset%201.png', caption: 'Logo' },
-      { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Business%20Card/mockup%201.png', caption: 'Mockup' },
-      { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Business%20Card/Vizitka%20front.png', caption: 'Front Design' },
-      { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Business%20Card/Vizitka%20back-01.png', caption: 'Back Design' }
+    images: [
+      { url: 'https://images.pexels.com/photos/3721035/pexels-photo-3721035.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Logo' },
+      { url: 'https://images.pexels.com/photos/3962570/pexels-photo-3962570.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup' },
+      { url: 'https://images.pexels.com/photos/3944441/pexels-photo-3944441.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Front Design' },
+      { url: 'https://images.pexels.com/photos/3568518/pexels-photo-3568518.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Back Design' }
       ]
     },
     {
@@ -79,8 +78,8 @@ const Portfolio = () => {
       year: '2024',
       services: ['Illustration', 'Event Design', 'Social Media Graphics'],
       images: [
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Valentines%20party/Mockup%20HD.png', caption: 'Mockup'}, 
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Valentines%20party/Banner%20HD.png', caption: 'Design' }
+        { url: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup'},
+        { url: 'https://images.pexels.com/photos/3721035/pexels-photo-3721035.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Design' }
       ]
     },
     {
@@ -92,8 +91,8 @@ const Portfolio = () => {
       year: '2023',
       services: ['Sports Graphics', 'Typography', 'Print Design'],
       images: [
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Volleyball%20poster/Mockup%20HD.png', caption: 'Tournament Poster' },
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Volleyball%20poster/Volleyball%20Optimized.jpg', caption: 'Design'}
+        { url: 'https://images.pexels.com/photos/3568518/pexels-photo-3568518.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Tournament Poster' },
+        { url: 'https://images.pexels.com/photos/3721035/pexels-photo-3721035.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Design'}
       ]
     },
     {
@@ -105,8 +104,8 @@ const Portfolio = () => {
       year: '2023',
       services: ['Cultural Design', 'Illustration', 'Event Branding'],
       images: [
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Carnival/mockup%20hd.jpg', caption: 'Mockup' },
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/Carnival/Carnaval%20Gabrovo.png', caption: 'Design'}
+        { url: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup' },
+        { url: 'https://images.pexels.com/photos/3944441/pexels-photo-3944441.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Design'}
       ]
     },
     {
@@ -118,11 +117,11 @@ const Portfolio = () => {
       year: '2025',
       services: ['Digital Marketing', 'Social Media', 'Bilboard Design'],
       images: [
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/XFUEL/XFUEL%20Billboard.png', caption: 'Mockup' },
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/XFUEL/Bilboard%20Mockup.png', caption: 'Bilboard' },
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/XFUEL/XFUEL%20Website.png', caption: 'Mockup' },
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/XFUEL/XFUEL%20Instagram%20Post.png', caption: 'Mockup'},
-        { url: 'https://krsuphhvcuesfgjphtgp.supabase.co/storage/v1/object/public/project-images/XFUEL/Instagram%20Post%20Mockup%202019.png', caption: 'Social Media Campaign' }
+        { url: 'https://images.pexels.com/photos/3962570/pexels-photo-3962570.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup' },
+        { url: 'https://images.pexels.com/photos/3721035/pexels-photo-3721035.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Bilboard' },
+        { url: 'https://images.pexels.com/photos/3568518/pexels-photo-3568518.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup' },
+        { url: 'https://images.pexels.com/photos/3944441/pexels-photo-3944441.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup'},
+        { url: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Social Media Campaign' }
       ]
     }
   ];
