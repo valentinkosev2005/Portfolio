@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { ExternalLink, Filter, Eye, Calendar, User, Sparkles } from 'lucide-react';
 import ProjectModal from './ProjectModal';
 
@@ -27,6 +27,7 @@ const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [visibleProjects, setVisibleProjects] = useState<Project[]>([]);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const filters = [
     { id: 'all', label: 'All Work', icon: '🎨' },
