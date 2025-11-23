@@ -87,7 +87,7 @@ const Portfolio = () => {
       category: 'print',
       description: 'Capturing the energy and excitement of competitive sports through bold design.',
       client: 'Sports Club',
-      year: '2023',
+      year: '2024',
       services: ['Sports Graphics', 'Typography', 'Print Design'],
       images: [
         { url: 'https://imgur.com/q02oxQv.jpeg', caption: 'Tournament Poster' },
@@ -100,7 +100,7 @@ const Portfolio = () => {
       category: 'illustration',
       description: 'Celebrating Bulgarian culture with vibrant illustrations and traditional elements.',
       client: 'City of Gabrovo',
-      year: '2023',
+      year: '2024',
       services: ['Cultural Design', 'Illustration', 'Event Branding'],
       images: [
         { url: 'https://imgur.com/DCcDGXi.jpeg', caption: 'Mockup' },
