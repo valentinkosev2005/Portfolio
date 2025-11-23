@@ -117,7 +117,7 @@ const Portfolio = () => {
       year: '2025',
       services: ['Digital Marketing', 'Social Media', 'Bilboard Design'],
       images: [
-        { url: 'https://imgur.com/j3BgtRf', caption: 'Mockup' },
+        { url: 'https://imgur.com/j3BgtRf.jpeg', caption: 'Mockup' },
         { url: 'https://imgur.com/nO7aPsc', caption: 'Bilboard' },
         { url: 'https://imgur.com/wTdGiYZ', caption: 'Mockup' },
         { url: 'https://imgur.com/JWSl0yV', caption: 'Mockup'},
