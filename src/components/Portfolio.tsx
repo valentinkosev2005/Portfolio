@@ -48,10 +48,10 @@ const Portfolio = () => {
     services: ['Brand Strategy', 'Logo Design', 'Packaging', 'Marketing Materials'],
     is_featured: true,
     images: [
-      { url: 'https://images.pexels.com/photos/3568518/pexels-photo-3568518.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Logo Design' },
-      { url: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Social Media Post' },
-      { url: 'https://images.pexels.com/photos/3944441/pexels-photo-3944441.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Flyer Design' },
-      { url: 'https://images.pexels.com/photos/3962570/pexels-photo-3962570.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Menu Design' }
+      { url: 'https://imgur.com/vq6WuZ3.jpeg', caption: 'Logo Design' },
+      { url: 'https://imgur.com/sn1sezF.jpeg', caption: 'Social Media Post' },
+      { url: 'https://imgur.com/woBJStf.jpeg', caption: 'Flyer Design' },
+      { url: 'https://imgur.com/PGTiw7a.jpeg', caption: 'Menu Design' }
     ]
   },
   {
