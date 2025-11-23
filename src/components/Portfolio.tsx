@@ -30,7 +30,7 @@ const Portfolio = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const filters = [
-    { id: 'all', label: 'All Work', icon: '🎨' },
+    { id: 'all', label: 'All Recent Work', icon: '🎨' },
     { id: 'branding', label: 'Branding', icon: '🔥' },
     { id: 'web', label: 'Digital', icon: '💻' },
     { id: 'print', label: 'Print', icon: '📄' },
