@@ -78,8 +78,8 @@ const Portfolio = () => {
       year: '2024',
       services: ['Illustration', 'Event Design', 'Social Media Graphics'],
       images: [
-        { url: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup'},
-        { url: 'https://images.pexels.com/photos/3721035/pexels-photo-3721035.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Design' }
+        { url: 'https://imgur.com/gCGViNH.jpeg', caption: 'Mockup'},
+        { url: 'https://imgur.com/nh2leFp.jpeg', caption: 'Design' }
       ]
     },
     {
