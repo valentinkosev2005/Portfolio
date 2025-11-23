@@ -117,11 +117,10 @@ const Portfolio = () => {
       year: '2025',
       services: ['Digital Marketing', 'Social Media', 'Bilboard Design'],
       images: [
-        { url: 'https://images.pexels.com/photos/3962570/pexels-photo-3962570.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup' },
-        { url: 'https://images.pexels.com/photos/3721035/pexels-photo-3721035.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Bilboard' },
-        { url: 'https://images.pexels.com/photos/3568518/pexels-photo-3568518.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup' },
-        { url: 'https://images.pexels.com/photos/3944441/pexels-photo-3944441.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup'},
-        { url: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Social Media Campaign' }
+        { url: 'https://imgur.com/j3BgtRf', caption: 'Mockup' },
+        { url: 'https://imgur.com/nO7aPsc', caption: 'Bilboard' },
+        { url: 'https://imgur.com/wTdGiYZ', caption: 'Mockup' },
+        { url: 'https://imgur.com/JWSl0yV', caption: 'Mockup'},
       ]
     }
   ];
