@@ -118,9 +118,9 @@ const Portfolio = () => {
       services: ['Digital Marketing', 'Social Media', 'Bilboard Design'],
       images: [
         { url: 'https://imgur.com/j3BgtRf.jpeg', caption: 'Mockup' },
-        { url: 'https://imgur.com/nO7aPsc', caption: 'Bilboard' },
-        { url: 'https://imgur.com/wTdGiYZ', caption: 'Mockup' },
-        { url: 'https://imgur.com/JWSl0yV', caption: 'Mockup'},
+        { url: 'https://imgur.com/nO7aPsc.jpeg', caption: 'Bilboard' },
+        { url: 'https://imgur.com/wTdGiYZ.jpeg', caption: 'Mockup' },
+        { url: 'https://imgur.com/JWSl0yV.jpeg', caption: 'Mockup'},
       ]
     }
   ];
