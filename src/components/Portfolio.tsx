@@ -91,8 +91,8 @@ const Portfolio = () => {
       year: '2023',
       services: ['Sports Graphics', 'Typography', 'Print Design'],
       images: [
-        { url: 'https://images.pexels.com/photos/3568518/pexels-photo-3568518.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Tournament Poster' },
-        { url: 'https://images.pexels.com/photos/3721035/pexels-photo-3721035.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Design'}
+        { url: 'https://imgur.com/q02oxQv.jpeg', caption: 'Tournament Poster' },
+        { url: 'https://imgur.com/ZJD6bJ1.jpeg', caption: 'Design'}
       ]
     },
     {
