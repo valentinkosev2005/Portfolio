@@ -104,8 +104,8 @@ const Portfolio = () => {
       year: '2023',
       services: ['Cultural Design', 'Illustration', 'Event Branding'],
       images: [
-        { url: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Mockup' },
-        { url: 'https://images.pexels.com/photos/3944441/pexels-photo-3944441.jpeg?auto=compress&cs=tinysrgb&w=600', caption: 'Design'}
+        { url: 'https://imgur.com/DCcDGXi.jpeg', caption: 'Mockup' },
+        { url: 'https://imgur.com/LCnt9Zf.jpeg', caption: 'Design'}
       ]
     },
     {
